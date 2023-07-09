@@ -8,10 +8,10 @@
 
 }
 .header-container{
-    background:#FFF8F3;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
     
 }
@@ -27,13 +27,14 @@
 }
 .menus{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
 .menus a{
     text-decoration: none;
     margin-right:25px ;
-    padding-right: 27px;
+    padding-right:27px;
     color:  #474747;
     font-family: Open Sans;
     font-size: 20px;
@@ -49,4 +50,30 @@
     text-transform: capitalize;
     padding:5px 10px;
     border: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+.header{
+    background:#FFF8F3;;
+}
+.container-left{
+
+}
+.common-h3{
+
+}
+.common-p{
+
+}
+.container-right{
+
+
+}
+.hardy{
+    width:500px; 
+
 }
